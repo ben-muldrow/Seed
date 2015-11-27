@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView   android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/manageAccountTextView"
+
+                android:text="Manage Account"
+                android:textSize="42sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#ef7f71"/>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#28D4CB">
+
+                <Button android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editInformationButton"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Edit Info"
+                        android:textSize="20sp"
+                />
+
+                <Button android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/logoutButton"
+                        android:text="Log Out"
+                        android:textSize="20sp"
+                        android:layout_alignBaseline="@+id/editInformationButton"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentRight="true"
+                        />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/logoutButton"
+                        android:text="Hello."
+                        android:textSize="42dp"
+                        android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seed App</string>
+    <string name="welcome_text">Please Log In</string>
+    <string name="loginButton_text">Log In</string>
+</resources>
