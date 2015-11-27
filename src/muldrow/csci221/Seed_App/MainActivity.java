@@ -94,7 +94,7 @@ public class MainActivity extends Activity {
                     String confirmPass = confirmPasswordEditText.getText().toString();
 
                     if (newPassword.equals(confirmPass) && User.isValidUsername(newUsername) && User.isValidPassword(newPassword)) {
-                        addUser(newUsername, newPassword);
+                        User u = new User(newUsername,newPassword);
                         passwordEditText.setText("");
                         confirmPasswordEditText.setText("");
                         Toast.makeText(context, "greatjob", Toast.LENGTH_SHORT).show();
@@ -123,12 +123,5 @@ public class MainActivity extends Activity {
         }); // sign up button
     } // On Create
 
-    public void addUser(String username, String password){
-
-        // create user if valid
-        if (User.isValidUsername(username) && User.isValidPassword(password)) {
-            User.addUser(username,password);
-        }
-    }
 
 }

@@ -34,18 +34,16 @@ public class User {
         try {
             URL usersURL = new URL(getClass().getResource("users.txt").getPath());
             usersFile = new File(usersURL.toString());
+            usersOutputStream = new FileOutputStream(usersFile, true);
+            usersOutputStream.write((username + "," + password + "\n").getBytes());
         } catch (MalformedURLException e) {
             e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        
-    }
 
-    /**
-     * Adds a user's information to the users file.
-     * @param username
-     * @param password
-     */
-    public static void addUser(String username, String password) {
     }
 
     /**
