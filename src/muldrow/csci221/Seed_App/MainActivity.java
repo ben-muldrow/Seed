@@ -48,8 +48,6 @@ public class MainActivity extends Activity {
         loginButton = (Button) findViewById(R.id.loginButton);
         signUpButton = (Button) findViewById(R.id.signUpButton);
 
-        directory = Environment.getExternalStorageDirectory();
-
         // Login Button Listener
         loginButton.setOnClickListener(new View.OnClickListener() {
 
@@ -78,6 +76,7 @@ public class MainActivity extends Activity {
                     Toast toast = Toast.makeText(getApplicationContext(), "Set to Log-in Mode", Toast.LENGTH_LONG);
                     toast.show();
                 }
+
 
             } // On Click
         }); // Log In Button
