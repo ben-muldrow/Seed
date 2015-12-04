@@ -1,6 +1,8 @@
 package muldrow.csci221.Seed_App;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by Benjam on 11/30/2015.
@@ -15,9 +17,9 @@ public class FileReader {
      * Constructor.
      * @param filename to read from
      */
-    public FileReader(String filename){
+    public FileReader(File file){
         try {
-            in = new FileInputStream(filename);
+            in = new FileInputStream(file);
             reader = new InputStreamReader(in, "UTF-8");
             bufferedReader = new BufferedReader(reader);
         } catch (FileNotFoundException e) {
@@ -27,16 +29,18 @@ public class FileReader {
         }
     }
 
-    public void printLines() {
+    public ArrayList<String> printLines() {
+        ArrayList<String> lines = new ArrayList<>();
         try {
             String line = bufferedReader.readLine();
             while (line != null) {
-                System.out.println(line);
+                lines.add(line);
                 line = bufferedReader.readLine();
             }
         } catch (IOException e){
             e.printStackTrace();
         }
+        return lines;
     }
 
 }

@@ -12,12 +12,14 @@
                 android:textSize="42sp"
                 android:gravity="center"
                 android:textStyle="bold"
+                android:elevation="5dp"
                 android:background="#ef7f71"/>
 
 
     <RelativeLayout android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:background="#28D4CB">
+                android:background="#28D4CB"
+                >
 
                 <Button android:layout_width="140dp"
                         android:layout_height="wrap_content"
@@ -26,6 +28,7 @@
                         android:layout_marginLeft="5dp"
                         android:text="Edit Info"
                         android:textSize="20sp"
+                        android:layout_marginTop="10dp"
                 />
 
                 <Button android:layout_width="140dp"
@@ -44,7 +47,8 @@
                         android:layout_below="@+id/logoutButton"
                         android:text="Hello."
                         android:textSize="42dp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"/>
 
 
     </RelativeLayout>

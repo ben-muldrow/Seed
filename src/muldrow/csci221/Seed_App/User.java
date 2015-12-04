@@ -19,9 +19,6 @@ public class User {
     public static final String VALID_USER_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
     public static final String VALID_PASS_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
 
-    public static FileOutputStream usersOutputStream;
-    private File usersFile;
-
     /**
      * User Class Constructor
      * @param username
@@ -30,20 +27,6 @@ public class User {
     public User(String username, String password) {
         this.username = username;
         this.password = password;
-
-        try {
-            URL usersURL = new URL(getClass().getResource("users.txt").getPath());
-            usersFile = new File(usersURL.toString());
-            usersOutputStream = new FileOutputStream(usersFile, true);
-            usersOutputStream.write((username + "," + password + "\n").getBytes());
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
     }
 
     /**
@@ -94,29 +77,4 @@ public class User {
         return valid;
     }
 
-    /*private static boolean userExists(String username) {
-        boolean found = false;
-        boolean validInput = true;
-        String temp;
-        String[] usersList;
-        while (!found && validInput) {
-            try {
-                temp = bufferedReader.readLine();
-                usersList = temp.split(",");
-
-                // check if username exists
-                if (usersList[0].toLowerCase().equals(username.toLowerCase())) {
-                    found = true;
-                }
-                if (temp.equals(null)) {
-                    validInput = false;
-                }
-
-            } catch (IOException e) {
-                e.printStackTrace();
-                validInput = false;
-            }
-        }
-        return found;
-    }*/
 }

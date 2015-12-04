@@ -1,5 +1,6 @@
 package muldrow.csci221.Seed_App;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -16,9 +17,9 @@ public class FileWriter {
     /**
      * Constructor. Initialized file output stream
      */
-    public FileWriter(String filename){
+    public FileWriter(File file){
         try {
-            out = new FileOutputStream(filename, true);
+            out = new FileOutputStream(file.getName(), true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -44,6 +45,17 @@ public class FileWriter {
         }
     }
 
+    /**
+     * returns current text
+     * @return text
+     */
+    public String getText(){
+        return newText.toString();
+    }
+
+    /**
+     * writes all data to file
+     */
     public void write(){
         created = true;
         try {
