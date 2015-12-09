@@ -12,17 +12,16 @@ public class FileWriter {
 
     private FileOutputStream out;
     private StringBuilder newText = new StringBuilder();
+    private File file;
+    private boolean append = false;
     private boolean created = false;
 
     /**
      * Constructor. Initialized file output stream
      */
-    public FileWriter(File file){
-        try {
-            out = new FileOutputStream(file.getName(), true);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+    public FileWriter(File file, boolean append){
+        this.file = file;
+        this.append = append;
     }
 
     /**
@@ -59,6 +58,7 @@ public class FileWriter {
     public void write(){
         created = true;
         try {
+            out = new FileOutputStream(file, append);
             out.flush();
             out.write(newText.toString().getBytes());
             out.close();

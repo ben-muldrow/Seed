@@ -1,6 +1,7 @@
 package muldrow.csci221.Seed_App;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -12,31 +13,28 @@ public class FileReader {
     private InputStream in;
     private Reader reader;
     private BufferedReader bufferedReader;
+    private File file;
 
     /**
      * Constructor.
-     * @param filename to read from
+     * @param file to read from
      */
     public FileReader(File file){
+        this.file = file;
+    }
+
+    public ArrayList<String> printLines() {
+        ArrayList<String> lines = new ArrayList<String>();
         try {
             in = new FileInputStream(file);
             reader = new InputStreamReader(in, "UTF-8");
             bufferedReader = new BufferedReader(reader);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public ArrayList<String> printLines() {
-        ArrayList<String> lines = new ArrayList<>();
-        try {
             String line = bufferedReader.readLine();
             while (line != null) {
                 lines.add(line);
                 line = bufferedReader.readLine();
             }
+            bufferedReader.close();
         } catch (IOException e){
             e.printStackTrace();
         }

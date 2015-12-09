@@ -4,17 +4,21 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <TextView   android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/manageAccountTextView"
+    <Toolbar android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/toolbar"
+             android:elevation="5dp"
+             android:background="#ef7f71">
 
-                android:text="Manage Account"
-                android:textSize="42sp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:elevation="5dp"
-                android:background="#ef7f71"/>
-
+        <TextView   android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/manageAccountTextView"
+                    android:text="Manage Account  "
+                    android:textSize="42dp"
+                    android:textStyle="bold"
+                    android:textColor="#444"
+                    android:gravity="center_horizontal"/>
+    </Toolbar>
 
     <RelativeLayout android:layout_width="match_parent"
                 android:layout_height="fill_parent"
@@ -33,7 +37,7 @@
 
                 <Button android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:id="@+id/logoutButton"
+                        android:id="@+id/logOutButton"
                         android:text="Log Out"
                         android:textSize="20sp"
                         android:layout_alignBaseline="@+id/editInformationButton"
@@ -44,13 +48,25 @@
                 <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/logoutButton"
+                        android:id="@+id/manageWelcomeTextView"
+                        android:layout_below="@+id/logOutButton"
                         android:text="Hello."
                         android:textSize="42dp"
                         android:textStyle="bold"
-                        android:layout_marginTop="5dp"/>
+                        android:textColor="#444"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"/>
 
+        <ListView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_below="@+id/manageWelcomeTextView"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:background="#eff6e5">
 
+        </ListView>
     </RelativeLayout>
 
 </LinearLayout>

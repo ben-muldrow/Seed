@@ -7,8 +7,8 @@ import java.io.File;
  */
 public class UserWriter extends FileWriter{
 
-    public UserWriter(File file){
-        super(file);
+    public UserWriter(File file, boolean append){
+        super(file, append);
     }
 
     public void addUser(String username, String password){

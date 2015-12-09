@@ -25,10 +25,9 @@ public class UserReader extends FileReader {
     public HashMap readUsers(){
         HashMap<String, String> users = new HashMap();
         ArrayList<String> lines = super.printLines();
-        String [] userData;
-        for (String i : lines){
-            userData = i.split(",");
-            users.put(userData[0], userData[1]);
+        for (int i = 0; i < lines.size(); i++){
+            String[] temp = lines.get(i).split(",");
+            users.put(temp[0],temp[1]);
         }
         return users;
     }
