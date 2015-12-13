@@ -67,4 +67,20 @@ public class FileWriter {
         }
     }
 
+    /**
+     * erase all data from file
+     */
+    public void erase_all() {
+        try {
+            out = new FileOutputStream(file, false);
+            out.flush();
+            out.write(",".getBytes());
+            out.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

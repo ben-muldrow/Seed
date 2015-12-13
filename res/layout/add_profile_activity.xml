@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#d3d2d0">
+
+    <Toolbar android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#8ec198"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Add Profile"
+                  android:textSize="36sp"
+                  android:textColor="#444"
+                  android:gravity="center_horizontal"
+        />
+    </Toolbar>
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#fff"
+    >
+        <EditText android:layout_width="240dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/profileNameEditText"
+                  android:layout_marginTop="40dp"
+                  android:hint="Profile Name"
+                  android:layout_centerHorizontal="true"
+                  android:elevation="4dp"
+        />
+
+        <SeekBar android:layout_width="240dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/experienceSeekBar"
+                 android:layout_below="@id/profileNameEditText"
+                 android:layout_marginTop="20dp"
+                 android:layout_centerHorizontal="true"
+                 android:background="#ccc"
+                 android:max="10"
+        />
+
+        <TextView android:layout_width="240dp"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@id/experienceSeekBar"
+                  android:id="@+id/experienceTextView"
+                  android:layout_marginTop="10dp"
+                  android:text="Experience: 0"
+                  android:textSize="14sp"
+                  android:textColor="#444"
+        />
+
+        <EditText android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/experienceTextView"
+                  android:id="@+id/latEditText"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="60dp"
+                  android:hint="Latitude"
+        />
+
+        <EditText android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:layout_alignBaseline="@id/latEditText"
+                  android:id="@+id/longEditText"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="60dp"
+                  android:hint="Longitude"
+        />
+        <TextView android:layout_width="240dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/preferenceLabelTextView"
+                  android:layout_below="@id/latEditText"
+                  android:layout_marginTop="10dp"
+                  android:text="Select a prefered plant type: "
+                  android:textColor="#444"
+                  android:layout_centerHorizontal="true"
+        />
+
+        <RadioGroup android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup"
+                    android:background="#a1cdd8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/preferenceLabelTextView"
+                    android:layout_marginTop="10dp"
+        >
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/flowerRadioButton"
+                         android:checked="false"
+                         android:text="Flower"
+            />
+
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/herbRadioButton"
+                         android:checked="false"
+                         android:text="Herb"
+            />
+
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/vegetableRadioButton"
+                         android:checked="false"
+                         android:text="Vegetable"
+            />
+
+        </RadioGroup>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmProfileButton"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#8ec198"
+                android:text="Confirm"
+                android:textColor="#444"
+                android:elevation="3dp"
+                android:layout_marginBottom="40dp"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -22,7 +22,7 @@ public class UserReader extends FileReader {
      * their passwords (values)
      * @return HashMap of users
      */
-    public HashMap readUsers(){
+    public HashMap<String,String> readUsers(){
         HashMap<String, String> users = new HashMap();
         ArrayList<String> lines = super.printLines();
         for (int i = 0; i < lines.size(); i++){
@@ -41,6 +41,21 @@ public class UserReader extends FileReader {
         if (readUsers().containsKey(username)){
             return true;
         } else { return false; }
+    }
+
+    /**
+     * returns an array of profiles
+     * @param username
+     * @return array of profiles as Strings
+     */
+    public String [] readProfiles(String username) {
+        String data = readUsers().get(username);
+        String [] temp = data.split(";");
+        String [] profilesArray = new String [temp.length - 2];
+        for (int i = 1; i < temp.length; i++){
+            profilesArray[i-1] = temp[i];
+        }
+        return profilesArray;
     }
 
 }

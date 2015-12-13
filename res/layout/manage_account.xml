@@ -14,8 +14,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/manageAccountTextView"
                     android:text="Manage Account  "
-                    android:textSize="42dp"
-                    android:textStyle="bold"
+                    android:textSize="36dp"
                     android:textColor="#444"
                     android:gravity="center_horizontal"/>
     </Toolbar>
@@ -25,25 +24,34 @@
                 android:background="#28D4CB"
                 >
 
-                <Button android:layout_width="140dp"
+                <Button android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/editInformationButton"
                         android:layout_marginRight="5dp"
                         android:layout_marginLeft="5dp"
                         android:text="Edit Info"
-                        android:textSize="20sp"
+                        android:textSize="14sp"
                         android:layout_marginTop="10dp"
                 />
 
-                <Button android:layout_width="140dp"
+                <Button android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/logOutButton"
                         android:text="Log Out"
-                        android:textSize="20sp"
+                        android:textSize="14sp"
                         android:layout_alignBaseline="@+id/editInformationButton"
                         android:layout_marginRight="5dp"
                         android:layout_alignParentRight="true"
                         />
+
+                <Button android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/addProfileButton"
+                        android:layout_alignBaseline="@+id/logOutButton"
+                        android:layout_centerHorizontal="true"
+                        android:text="add profile"
+                        android:textSize="14sp"
+                />
 
                 <TextView
                         android:layout_width="match_parent"
@@ -51,20 +59,22 @@
                         android:id="@+id/manageWelcomeTextView"
                         android:layout_below="@+id/logOutButton"
                         android:text="Hello."
-                        android:textSize="42dp"
-                        android:textStyle="bold"
+                        android:textSize="14dp"
                         android:textColor="#444"
                         android:layout_marginTop="5dp"
                         android:layout_marginLeft="10dp"/>
 
         <ListView android:layout_width="match_parent"
                   android:layout_height="match_parent"
+                  android:id="@+id/profilesListView"
                   android:layout_below="@+id/manageWelcomeTextView"
                   android:layout_marginTop="10dp"
                   android:layout_marginLeft="10dp"
                   android:layout_marginRight="10dp"
                   android:layout_marginBottom="10dp"
-                  android:background="#eff6e5">
+                  android:background="#fff"
+                  android:choiceMode="singleChoice"
+        >
 
         </ListView>
     </RelativeLayout>

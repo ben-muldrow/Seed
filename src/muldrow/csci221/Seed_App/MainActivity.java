@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.*;
+import java.io.File;
 import java.util.HashMap;
 
 public class MainActivity extends Activity {
@@ -42,6 +42,8 @@ public class MainActivity extends Activity {
         Context context = this;
         String filename = "text.txt";
         File file = new File(context.getFilesDir(), filename);
+        User.setFile(file);
+        UserWriter uw = new UserWriter(file, false);
 
         // Login Button
         loginButton.setOnClickListener(new View.OnClickListener() {
@@ -59,21 +61,19 @@ public class MainActivity extends Activity {
                     UserReader reader = new UserReader(file);
                     HashMap usersMap = reader.readUsers();
 
-                    if (User.isValidUsername(attemptUser) && User.isValidPassword(attemptPass)) {
-                        if (usersMap.containsKey(attemptUser)) {
-                            if (usersMap.get(attemptUser).equals(attemptPass)){
-                                if (User.logIn(file, attemptUser, attemptPass)) {
-                                    logIn();
-                                    makeToast("Logged in to " + User.getActiveUser().getUsername());
-                                }
-                            } else {
-                                makeToast("Invalid Username or Password");
-                            }
-                        } else {
-                            makeToast("Invalid Username or Password");
-                        }
-                    } else {
+                    if (!User.isValidUsername(attemptUser) || !User.isValidPassword(attemptPass)) {
                         makeToast("Invalid Username or Password");
+                    } else if (!usersMap.containsKey(attemptUser)) {
+                        makeToast("Invalid Username or Password");
+                    } else if (!usersMap.get(attemptUser).equals(attemptPass)) {
+                        makeToast("Invalid Username or Password");
+                    } else {
+                        if (User.logIn(attemptUser, attemptPass)) {
+                            logIn();
+                            makeToast("Logged in to " + User.getActiveUser().getUsername());
+                        } else {
+                            makeToast("An unknown error!! Ahh!");
+                        }
                     }
 
                 } else {
@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
                      else if (User.isValidUsername(attemptUser) && User.isValidPassword(attemptPass)
                             && matching && !exists) {
                         writer.addUser(attemptUser,attemptPass);
-                        if (User.logIn(file, attemptUser, attemptPass)){
+                        if (User.logIn(attemptUser, attemptPass)){
                             makeToast("logged in to " + User.getActiveUser().getUsername());
                             logIn();
                         } else {

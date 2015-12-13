@@ -19,6 +19,7 @@ public class User {
     public static final int MIN_PASSWORD_LENGTH = 6;
     public static final String VALID_USER_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
     public static final String VALID_PASS_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
+    public static  File dataFile;
     private static User activeUser = null;
 
     /**
@@ -81,28 +82,34 @@ public class User {
 
     /**
      * tests if a user exists in a file
-     * @param file to read
      * @param username to test
      * @return if the user is there
      */
-    private static boolean userExists(File file, String username) {
-        UserReader reader = new UserReader(file);
+    private static boolean userExists(String username) {
+        UserReader reader = new UserReader(dataFile);
         return reader.userExists(username);
     }
 
     /**
      * log into an account
-     * @param file of user ifnormation
      * @param username as a string
      * @param password as a string
      * @return the User object of the logged-in user.
      */
-    public static boolean logIn(File file, String username, String password) {
-        if (userExists(file, username)) {
-            User temp = new User(username, password);
-            activeUser = temp;
+    public static boolean logIn(String username, String password) {
+        if (userExists(username)) {
+            activeUser = new User(username, password);
             return true;
         } else { return false; }
+    }
+
+    /**
+     * returns an array of profiles for the user the method is called on
+     * @return array of profiles
+     */
+    public String[] getProfiles() {
+        UserReader reader = new UserReader(dataFile);
+        return reader.readProfiles(this.username);
     }
 
     /**
@@ -151,6 +158,22 @@ public class User {
      */
     public static User getActiveUser() {
         return activeUser;
+    }
+
+    /**
+     * set the active file contianing user information
+     * @param file
+     */
+    public static void setFile(File file) {
+        dataFile = file;
+    }
+
+    /**
+     * returns the active file containing user information
+     * @return File dataFile
+     */
+    public static File getFile() {
+        return dataFile;
     }
 
 }
