@@ -19,6 +19,7 @@ public class Profile {
     public Profile(User parent, String name, int experience, double lat, double longitude,
                    String preference) {
         this.parent = parent;
+        this.name = name;
         this.experience = experience;
         this.lat = lat;
         this.longitude = longitude;

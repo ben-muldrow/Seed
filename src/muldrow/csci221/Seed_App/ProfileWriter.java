@@ -27,6 +27,7 @@ public class ProfileWriter extends FileWriter {
                              int experience, double lat, double longitude,
                              String preference) {
         super.println(username + "," + profilename + ";" + experience + ";" + lat + ";" + longitude + ";" + preference);
+        super.write();
     }
 
 }

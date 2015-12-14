@@ -10,34 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d604adfb-0628-4992-9989-25a24ac847d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/AddProfileActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfilesList$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfilesList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfilesList.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/Seed App.apk" afterPath="$PROJECT_DIR$/out/production/Seed App/Seed App.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/Seed App.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Seed App/Seed App.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity$1.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity$2.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity$2.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity$3.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ManageAccountActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/Profile.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/Profile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfileReader.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfileReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfileWriter.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/ProfileWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$id.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$layout.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$string.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/User.class" afterPath="$PROJECT_DIR$/out/production/Seed App/muldrow/csci221/Seed_App/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/add_profile_activity.xml" afterPath="$PROJECT_DIR$/res/layout/add_profile_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/manage_account.xml" afterPath="$PROJECT_DIR$/res/layout/manage_account.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/MainActivity.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/search.xml" afterPath="$PROJECT_DIR$/res/layout/search.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java" afterPath="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java" />
     </list>
     <ignored path="Seed App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="21" />
               <folding>
                 <element signature="docComment;method#User#0;class#User#0" expanded="false" />
                 <element signature="docComment;method#isValidUsername#0;class#User#0" expanded="false" />
@@ -96,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4620253">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="docComment;method#Profile#0;class#Profile#0" expanded="false" />
                 <element signature="docComment;method#getPreference#0;class#Profile#0" expanded="false" />
@@ -115,18 +99,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageAccountActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManageAccountActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6600306">
-              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="68" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2063#2064#0" expanded="true" />
                 <element signature="e#2107#2108#0" expanded="true" />
-                <element signature="docComment;method#addProfile#0;class#ManageAccountActivity#0" expanded="false" />
-                <element signature="e#3611#3612#0" expanded="true" />
-                <element signature="e#3678#3679#0" expanded="true" />
+                <element signature="e#3559#3560#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/AddProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,40 +127,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_profile_activity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/add_profile_activity.xml">
+      <file leaf-file-name="UserWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage_account.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/manage_account.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.512195">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/MainActivity.java">
+      <file leaf-file-name="ProfileWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="docComment;method#logIn#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;method#makeToast#0;class#MainActivity#0" expanded="false" />
+                <element signature="docComment;method#ProfileWriter#0;class#ProfileWriter#0" expanded="false" />
+                <element signature="docComment;method#writeProfile#0;class#ProfileWriter#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -189,28 +156,10 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="docComment;method#UserReader#0;class#UserReader#0" expanded="false" />
-                <element signature="e#308#309#0" expanded="false" />
-                <element signature="e#335#336#0" expanded="false" />
                 <element signature="docComment;method#readUsers#0;class#UserReader#0" expanded="false" />
                 <element signature="docComment;method#userExists#0;class#UserReader#0" expanded="false" />
                 <element signature="docComment;method#readProfiles#0;class#UserReader#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;method#ProfileWriter#0;class#ProfileWriter#0" expanded="false" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="docComment;method#writeProfile#0;class#ProfileWriter#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -220,9 +169,8 @@
         <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;method#ProfileReader#0;class#ProfileReader#0" expanded="false" />
                 <element signature="docComment;method#profileExists#0;class#ProfileReader#0" expanded="false" />
               </folding>
@@ -257,7 +205,6 @@
         <option value="$PROJECT_DIR$/res/values/users.xml" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileCreator.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileReader.java" />
-        <option value="$PROJECT_DIR$/res/layout/search.xml" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserReader.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfilesList.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileWriter.java" />
@@ -265,15 +212,16 @@
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserWriter.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/profileWriter.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java" />
-        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/AddProfileActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/add_profile_activity.xml" />
-        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java" />
-        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java" />
-        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java" />
         <option value="$PROJECT_DIR$/res/layout/manage_account.xml" />
+        <option value="$PROJECT_DIR$/res/layout/search.xml" />
+        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/AddProfileActivity.java" />
+        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java" />
+        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java" />
         <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java" />
+        <option value="$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java" />
       </list>
     </option>
   </component>
@@ -1116,15 +1064,15 @@
       <workItem from="1449948875263" duration="5006000" />
       <workItem from="1450038087384" duration="9643000" />
       <workItem from="1450051430343" duration="8092000" />
-      <workItem from="1450106798260" duration="4222000" />
+      <workItem from="1450106798260" duration="8270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115813000" />
+    <option name="totallyTimeSpent" value="119861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1136,14 +1084,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26705757" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26978818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20735785" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24080268" sideWeight="0.4936034" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26421404" sideWeight="0.4936034" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1174,6 +1122,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -1600,17 +1551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/search.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1622,53 +1562,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;method#FileWriter#0;class#FileWriter#0" expanded="false" />
-            <element signature="docComment;method#println#0;class#FileWriter#0" expanded="false" />
-            <element signature="docComment;method#print#0;class#FileWriter#0" expanded="false" />
-            <element signature="docComment;method#getText#0;class#FileWriter#0" expanded="false" />
-            <element signature="docComment;method#write#0;class#FileWriter#0" expanded="false" />
-            <element signature="docComment;method#erase_all#0;class#FileWriter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5862069">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#303#304#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;method#UserReader#0;class#UserReader#0" expanded="false" />
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-            <element signature="docComment;method#readUsers#0;class#UserReader#0" expanded="false" />
-            <element signature="docComment;method#userExists#0;class#UserReader#0" expanded="false" />
-            <element signature="docComment;method#readProfiles#0;class#UserReader#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1702,10 +1600,27 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;method#FileWriter#0;class#FileWriter#0" expanded="false" />
+            <element signature="docComment;method#println#0;class#FileWriter#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#FileWriter#0" expanded="false" />
+            <element signature="docComment;method#getText#0;class#FileWriter#0" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="docComment;method#write#0;class#FileWriter#0" expanded="false" />
+            <element signature="docComment;method#erase_all#0;class#FileWriter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
           <folding>
             <element signature="docComment;method#logIn#0;class#MainActivity#0" expanded="false" />
             <element signature="docComment;method#makeToast#0;class#MainActivity#0" expanded="false" />
@@ -1713,12 +1628,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59266055">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/AddProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="docComment;method#UserReader#0;class#UserReader#0" expanded="false" />
+            <element signature="docComment;method#readUsers#0;class#UserReader#0" expanded="false" />
+            <element signature="docComment;method#userExists#0;class#UserReader#0" expanded="false" />
+            <element signature="docComment;method#readProfiles#0;class#UserReader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/UserWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#ProfileWriter#0;class#ProfileWriter#0" expanded="false" />
+            <element signature="docComment;method#writeProfile#0;class#ProfileWriter#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1726,7 +1684,7 @@
     <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="21" />
           <folding>
             <element signature="docComment;method#User#0;class#User#0" expanded="false" />
             <element signature="docComment;method#isValidUsername#0;class#User#0" expanded="false" />
@@ -1750,10 +1708,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java">
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;method#ProfileReader#0;class#ProfileReader#0" expanded="false" />
+            <element signature="docComment;method#profileExists#0;class#ProfileReader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="68" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#3559#3560#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4620253">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="docComment;method#Profile#0;class#Profile#0" expanded="false" />
             <element signature="docComment;method#getPreference#0;class#Profile#0" expanded="false" />
@@ -1763,46 +1746,6 @@
             <element signature="docComment;method#setExperience#0;class#Profile#0" expanded="false" />
             <element signature="docComment;method#getExperience#0;class#Profile#0" expanded="false" />
             <element signature="docComment;method#getParent#0;class#Profile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#ProfileWriter#0;class#ProfileWriter#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="docComment;method#writeProfile#0;class#ProfileWriter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ProfileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ProfileReader#0;class#ProfileReader#0" expanded="false" />
-            <element signature="docComment;method#profileExists#0;class#ProfileReader#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muldrow/csci221/Seed_App/ManageAccountActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6600306">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="docComment;method#addProfile#0;class#ManageAccountActivity#0" expanded="false" />
-            <element signature="e#3611#3612#0" expanded="true" />
-            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>

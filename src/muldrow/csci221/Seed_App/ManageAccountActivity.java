@@ -62,15 +62,12 @@ public class ManageAccountActivity extends Activity {
         editInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (User.getActiveUser().hasProfile()) {
-                    makeToast("user has a profile");
-                
-                }
+
                 if (User.getActiveUser().hasProfile()) {
                     ProfileReader reader = new ProfileReader(User.proFile);
                     Profile profile = reader.readProfile(User.getActiveUser().getUsername());
                     profileNameValueTextView.setText(profile.getName());
-                    experienceLevelTextView.setText(profile.getExperience());
+                    experienceLevelTextView.setText(profile.getExperience() + "/10");
                     locationValueTextView.setText(profile.getLat() + "º , " + profile.getLongitude() + "º");
                     plantPrefTextView.setText(profile.getPreference());
                     makeToast("profile found!");
@@ -98,6 +95,10 @@ public class ManageAccountActivity extends Activity {
         startActivity(intent);
     }
 
+    /**
+     * makes a short toast containing given text
+     * @param text
+     */
     public void makeToast(String text) {
         Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
     }

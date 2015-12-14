@@ -3,5 +3,23 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <Toolbar android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#afc9e6"
+             android:elevation="5dp"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Search Results"
+                  android:textSize="36sp"
+                  android:textColor="#444"
+                  android:gravity="center"
+                  android:layout_marginEnd="10dp"
+        />
+    </Toolbar>
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    </ScrollView>
 
 </LinearLayout>

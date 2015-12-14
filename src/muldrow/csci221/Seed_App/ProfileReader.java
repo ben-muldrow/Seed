@@ -46,10 +46,10 @@ public class ProfileReader extends FileReader {
      * @return boolean true or false
      */
     public boolean profileExists(User u) {
-        if ((readProfile(u.getUsername())) == null) {
-            return false;
-        } else {
+        if (readProfile(u.getUsername()) != null) {
             return true;
+        } else {
+            return false;
         }
     }
 }
