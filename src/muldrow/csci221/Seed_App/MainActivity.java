@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 
 public class MainActivity extends Activity {
@@ -41,8 +42,11 @@ public class MainActivity extends Activity {
 
         Context context = this;
         String filename = "text.txt";
+        String profileFilename = "profiles.txt";
         File file = new File(context.getFilesDir(), filename);
-        User.setFile(file);
+        File profileFile = new File(context.getFilesDir(), profileFilename);
+        User.setDataFile(file);
+        User.setProFile(profileFile);
         UserWriter uw = new UserWriter(file, false);
 
         // Login Button

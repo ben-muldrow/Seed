@@ -25,7 +25,9 @@
                   android:layout_height="wrap_content"
                   android:id="@+id/profileNameEditText"
                   android:layout_marginTop="40dp"
+                  android:textColor="#444"
                   android:hint="Profile Name"
+                  android:textColorHint="#aaa"
                   android:layout_centerHorizontal="true"
                   android:elevation="4dp"
         />
@@ -38,6 +40,7 @@
                  android:layout_centerHorizontal="true"
                  android:background="#ccc"
                  android:max="10"
+                 android:progress="0"
         />
 
         <TextView android:layout_width="240dp"
@@ -55,8 +58,11 @@
                   android:layout_height="wrap_content"
                   android:layout_below="@id/experienceTextView"
                   android:id="@+id/latEditText"
+                  android:textColorHint="#aaa"
+                  android:inputType="numberDecimal"
                   android:layout_marginTop="20dp"
                   android:layout_marginLeft="60dp"
+                  android:textColor="#444"
                   android:hint="Latitude"
         />
 
@@ -64,7 +70,10 @@
                   android:layout_height="wrap_content"
                   android:layout_alignBaseline="@id/latEditText"
                   android:id="@+id/longEditText"
+                  android:inputType="numberDecimal"
                   android:layout_alignParentRight="true"
+                  android:textColorHint="#aaa"
+                  android:textColor="#444"
                   android:layout_marginRight="60dp"
                   android:hint="Longitude"
         />

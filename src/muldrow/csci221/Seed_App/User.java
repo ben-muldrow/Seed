@@ -19,7 +19,8 @@ public class User {
     public static final int MIN_PASSWORD_LENGTH = 6;
     public static final String VALID_USER_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
     public static final String VALID_PASS_CHARS = "abcdefghijklmnopqrstuvwxyz-_.0123456789";
-    public static  File dataFile;
+    public static File dataFile;
+    public static File proFile;
     private static User activeUser = null;
 
     /**
@@ -113,6 +114,25 @@ public class User {
     }
 
     /**
+     * adds a profile to the profile file
+     * @param profile
+     */
+    public void addProfile(Profile profile) {
+        ProfileWriter writer = new ProfileWriter(proFile);
+        writer.writeProfile(this.getUsername(), profile.getName(), profile.getExperience(),
+                profile.getLat(), profile.getLongitude(), profile.getPreference());
+    }
+
+    /**
+     * checks if the user has a profile
+     * @return boolean
+     */
+    public boolean hasProfile() {
+        ProfileReader pr = new ProfileReader(proFile);
+        return pr.profileExists(this);
+    }
+
+    /**
      * returns username
      * @return username
      */
@@ -164,7 +184,7 @@ public class User {
      * set the active file contianing user information
      * @param file
      */
-    public static void setFile(File file) {
+    public static void setDataFile(File file) {
         dataFile = file;
     }
 
@@ -172,8 +192,20 @@ public class User {
      * returns the active file containing user information
      * @return File dataFile
      */
-    public static File getFile() {
+    public static File getDataFile() {
         return dataFile;
     }
+
+    /**
+     * set the file containing profiles
+     * @param file
+     */
+    public static void setProFile(File file) { proFile = file; }
+
+    /**
+     * get the file containing profiles
+     * @return profile file
+     */
+    public static File getProFile() { return proFile; }
 
 }

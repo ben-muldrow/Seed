@@ -24,9 +24,9 @@ public class ProfileWriter extends FileWriter {
      * @param preference plant type preference
      */
     public void writeProfile(String username, String profilename,
-                             int experience, double [] latLong,
+                             int experience, double lat, double longitude,
                              String preference) {
-        super.println(username + "," + profilename + ";" + experience + ";" + latLong + ";" + preference);
+        super.println(username + "," + profilename + ";" + experience + ";" + lat + ";" + longitude + ";" + preference);
     }
 
 }
