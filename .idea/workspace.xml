@@ -1052,7 +1052,7 @@
       <workItem from="1450038087384" duration="9643000" />
       <workItem from="1450051430343" duration="8092000" />
       <workItem from="1450106798260" duration="14138000" />
-      <workItem from="1450156535655" duration="5886000" />
+      <workItem from="1450156535655" duration="5905000" />
     </task>
     <task id="LOCAL-00001" summary="added Plant objects and examples">
       <created>1450155882940</created>
@@ -1060,15 +1060,21 @@
       <option name="project" value="LOCAL" />
       <updated>1450155882940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Plant objects and examples">
+      <created>1450162714451</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1450162714451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131615000" />
+    <option name="totallyTimeSpent" value="131634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
