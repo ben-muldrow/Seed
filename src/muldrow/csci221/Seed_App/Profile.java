@@ -27,18 +27,34 @@ public class Profile {
 
     }
 
+    /**
+     * set latitude
+     * @return
+     */
     public double getLat() {
         return lat;
     }
 
+    /**
+     * get latitude
+     * @param lat
+     */
     public void setLat(double lat) {
         this.lat = lat;
     }
 
+    /**
+     * get longitude
+     * @return
+     */
     public double getLongitude() {
         return longitude;
     }
 
+    /**
+     * set longitude
+     * @param longitude
+     */
     public void setLongitude(double longitude) {
         this.longitude = longitude;
     }

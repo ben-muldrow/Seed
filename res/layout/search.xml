@@ -5,7 +5,7 @@
               android:layout_height="match_parent">
     <Toolbar android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:background="#afc9e6"
+             android:background="#8eb9dd"
              android:elevation="5dp"
     >
         <TextView android:layout_width="match_parent"
