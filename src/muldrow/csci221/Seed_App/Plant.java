@@ -57,7 +57,7 @@ public class Plant {
     /**
      * add some example plants for presentation purposes
      */
-    public static ArrayList<Plant> addExamplePlants(Context context) {
+    public static ArrayList<Plant> getExamplePlants() {
 
         // I was unable to use a rest API source for the example plants. I found these from
         // http://www.garden.org/ (along with their images)

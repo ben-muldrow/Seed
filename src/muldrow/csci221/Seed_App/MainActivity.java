@@ -73,6 +73,8 @@ public class MainActivity extends Activity {
                         makeToast("Invalid Username or Password");
                     } else {
                         if (User.logIn(attemptUser, attemptPass)) {
+                            usernameEditText.setText("");
+                            passwordEditText.setText("");
                             logIn();
                             makeToast("Logged in to " + User.getActiveUser().getUsername());
                         } else {
@@ -117,6 +119,9 @@ public class MainActivity extends Activity {
                         writer.addUser(attemptUser,attemptPass);
                         if (User.logIn(attemptUser, attemptPass)){
                             makeToast("logged in to " + User.getActiveUser().getUsername());
+                            usernameEditText.setText("");
+                            passwordEditText.setText("");
+                            confirmPasswordEditText.setText("");
                             logIn();
                         } else {
                             makeToast("failed to set active user");

@@ -22,6 +22,7 @@ public class User {
     public static File dataFile;
     public static File proFile;
     private static User activeUser = null;
+    private static Profile activeProfile = null;
 
     /**
      * User Class Constructor
@@ -208,4 +209,11 @@ public class User {
      */
     public static File getProFile() { return proFile; }
 
+    public static Profile getActiveProfile() {
+        return activeProfile;
+    }
+
+    public static void setActiveProfile(Profile activeProfile) {
+        User.activeProfile = activeProfile;
+    }
 }

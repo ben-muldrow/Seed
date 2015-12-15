@@ -22,6 +22,7 @@ public class ManageAccountActivity extends Activity {
     TextView experienceLevelTextView;
     TextView locationValueTextView;
     TextView plantPrefTextView;
+    Button searchButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class ManageAccountActivity extends Activity {
         experienceLevelTextView = (TextView) findViewById(R.id.experienceLevelTextView);
         locationValueTextView = (TextView) findViewById(R.id.locationValueTextView);
         plantPrefTextView = (TextView) findViewById(R.id.plantPrefValTextView);
+        searchButton = (Button) findViewById(R.id.searchButton);
 
         manageWelcomeTextView.setText("Hello, " + User.getActiveUser().getUsername() + ".");
 
@@ -46,6 +48,7 @@ public class ManageAccountActivity extends Activity {
             @Override
             public void onClick(View v) {
                 User.setActiveUser(null);
+                User.setActiveProfile(null);
                 finish();
             }
         });
@@ -58,7 +61,7 @@ public class ManageAccountActivity extends Activity {
             }
         });
 
-        // edit User button
+        // Update Info Button
         editInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,10 +73,20 @@ public class ManageAccountActivity extends Activity {
                     experienceLevelTextView.setText(profile.getExperience() + "/10");
                     locationValueTextView.setText(profile.getLat() + "º , " + profile.getLongitude() + "º");
                     plantPrefTextView.setText(profile.getPreference());
+                    User.setActiveProfile(profile);
                     makeToast("profile found!");
                 } else {
                     makeToast("no profile found for " + User.getActiveUser().getUsername());
+                    User.setActiveProfile(null);
                 }
+            }
+        });
+
+        // Search Button
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                search();
             }
         });
 
@@ -84,6 +97,7 @@ public class ManageAccountActivity extends Activity {
      */
     public void onBackPressed() {
         User.setActiveUser(null);
+        User.setActiveProfile(null);
         finish();
     }
 
@@ -95,6 +109,10 @@ public class ManageAccountActivity extends Activity {
         startActivity(intent);
     }
 
+    public void search() {
+        Intent intent = new Intent(this, SearchActivity.class);
+        startActivity(intent);
+    }
     /**
      * makes a short toast containing given text
      * @param text
